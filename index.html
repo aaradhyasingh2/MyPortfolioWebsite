@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aaradhya Singh | Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+    />
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  </head>
+
+  <body>
+    <div id="minicircle"></div>
+    <div id="loader">
+      <h1>0%</h1>
+    </div>
+    <div id="main">
+      <div data-scroll data-scroll-speed="-5" id="page1">
+        <div id="navbar">
+          <h1><a href="#" id="logo">My Portfolio.</a></h1>
+          <div class="navlink">
+            <h3><a href="#home">Home</a></h3>
+            <h3><a href="#about">About</a></h3>
+            <h3><a href="#page3">Project</a></h3>
+            <h3><a href="#contact">Contact</a></h3>
+          </div>
+        </div>
+        <div id="hometext">
+          <h3>Hello, I'm</h3>
+          <h1>Aaradhya Singh</h1>
+          <h3>& Interested in <span class="text"></span></h3>
+        </div>
+        <div id="page1-img" id="home">
+          <img src="Images/formal.jpg" alt="" />
+        </div>
+      </div>
+      <!-- about section  -->
+      <div class="page2" data-scroll data-scroll-speed="6" id="about">
+        <div class="aboutcontainer">
+          <div class="row">
+            <div class="aboutcol-1">
+              <img id="aboutimg" src="Images/formal.jpg" alt="myimage" />
+            </div>
+            <div class="aboutcol-2">
+              <h1 class="heading">About me</h1>
+              <p id="headingtext">
+                Hello, Welcome to My Portfolio😊. <br />
+                My name is Aaradhya Singh. I have completed my Gradution with
+                B.tech degree in IT stream from RKGITM College, AKTU Lucknow. I
+                love learning new things to improve my skills. Very curious by
+                nature, I love the world of the web and new technologies. With
+                all my skills and knowledge, I will have the pleasure to devote
+                myself fully to the development of ideas in order to make them
+                great projects!
+              </p>
+              <a href="" download target="_blank" class="btn btn2"
+                >Download CV</a
+              >
+              <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">
+                  Skills
+                </p>
+                <p class="tab-links" onclick="opentab('experience')">
+                  Experience
+                </p>
+                <p class="tab-links" onclick="opentab('education')">
+                  Education
+                </p>
+                <p class="tab-links" onclick="opentab('interest')">Interest</p>
+              </div>
+              <div class="tab-contents active-tab" id="skills">
+                <div id="box">
+                  <h1>Development</h1>
+                  <div class="element-div1">
+                    <abbr title="C++"
+                      ><img
+                        src="https://cdn-icons-png.flaticon.com/512/6132/6132222.png"
+                        alt="c++icon"
+                    /></abbr>
+                    <abbr title="HTML">
+                      <img
+                        src="https://icones.pro/wp-content/uploads/2021/05/icone-html-bleue.png"
+                        alt="htmlicon"
+                    /></abbr>
+                    <abbr title="CSS"
+                      ><img
+                        src="https://coregenicsoftwares.com/wp-content/uploads/2022/01/clipart2065222-1.png"
+                        alt="cssicon"
+                    /></abbr>
+                    <abbr title="Javascript"
+                      ><img
+                        src="https://icons-for-free.com/iconfiles/png/512/super+tiny+icons+javascript-1324450741921820748.png"
+                        alt="jsicon"
+                    /></abbr>
+                    <abbr title="React"
+                      ><img
+                        src="https://styles.redditmedia.com/t5_2su6s/styles/communityIcon_4g1uo0kd87c61.png"
+                        alt="reacticonimg"
+                    /></abbr>
+                    <abbr title="DBMS"
+                      ><img
+                        src="https://1.bp.blogspot.com/-GeuDdctoBOU/X5GD9z5eiKI/AAAAAAAAA8M/ZLFoHxOVuRkfddE8EQWBARPpUmBVrfEMQCLcBGAsYHQ/w680/dbms.jpg"
+                        alt=""
+                    /></abbr>
+                    <abbr title="Gsap"
+                      ><img
+                        src="https://avatars.githubusercontent.com/u/2386673?s=200&v=4"
+                        alt="gsapicon"
+                    /></abbr>
+                    <abbr title="MySQL"
+                      ><img
+                        src="https://cdn4.iconfinder.com/data/icons/logos-3/181/MySQL-512.png"
+                        alt="MySQLicon"
+                    /></abbr>
+                    <abbr title="Python"
+                      ><img
+                        src="https://clipart-library.com/images_k/python-logo-transparent/python-logo-transparent-21.png"
+                        alt="pythoniconimg"
+                    /></abbr>
+                  </div>
+                  <h1>Platform</h1>
+                  <div class="element-div2">
+                    <abbr title="VS Code"
+                      ><img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png"
+                        alt="vscodeicon"
+                    /></abbr>
+                    <abbr title="GitHub"
+                      ><img
+                        src="https://www.vhv.rs/dpng/d/464-4644573_github-logo-png-github-transparent-png.png"
+                        alt="githubicon"
+                    /></abbr>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-contents" id="experience">
+                <ul>
+                  <li>
+                    I'm <span> FRESHER </span> and looking for the opporunity...
+                  </li>
+                  <br />
+                  <li><span style="color: black">INTERNSHIP: </span></li>
+                  <li>
+                    <span>Oct'2023 - Present</span> <br />
+                    ReactJs Trainee at <i>MonkHub Innovations</i>
+                  </li>
+                  <li>
+                    <span>Feb'2023 - March'2023</span> <br />
+                    Web Developer at <i>Code Clause</i>
+                  </li>
+                  <li>
+                    <span>Oct'2022 - Dec'2022</span><br />Full Stack Developer
+                    at <i>Solar Secure Solution</i>
+                  </li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="education">
+                <ul>
+                  <li>
+                    <span>2019 - 2023</span> <br />
+                    B.tech from RKGITM College, AKTU Lucknow
+                  </li>
+                  <li>
+                    <span>2019</span> <br />
+                    12 <sup>th</sup> from K.V.P Inter College Seorai, Ghazipur
+                  </li>
+                  <li>
+                    <span>2017</span> <br />
+                    10 <sup>th</sup> from K.V.P Inter College Seorai, Ghazipur
+                  </li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="interest">
+                <ul>
+                  <li>
+                    <span>Tech</span><br />
+                    learning about new technologies
+                  </li>
+                  <li>
+                    <span>Others</span> <br />
+                    Video Editing <br />
+                    Playing Cricket & Kabbadi
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!--aboutcol-2 div-->
+          </div>
+          <!--row closing div-->
+        </div>
+        <!--container closing div-->
+      </div>
+      <!--page2 closing div -->
+      <!-- project section start from below code  -->
+      <div id="page3" id="projects">
+        <h1 id="page3heading">Projects</h1>
+        <a href="#" target="_blank" id="project-link">
+          <div class="element">
+            <video
+              src="Videos/Landing Page video.mp4"
+              autoplay
+              loop
+              muted
+            ></video>
+            <h1>Landing Page</h1>
+            <h5><span>Using 👉 </span> Html, css & js</h5>
+          </div>
+        </a>
+        <a href="#" target="_blank" id="project-link">
+          <div class="element">
+            <video src="Videos/Bubble Game.mp4" autoplay loop muted></video>
+            <h1>Bubble Game</h1>
+            <h5><span>Using 👉 </span>HTML, CSS & JS</h5>
+          </div>
+        </a>
+        <a href="#" target="_blank" id="project-link">
+          <div class="element">
+            <!-- <video src="" autoplay loop muted></video> -->
+            <h1>Join2code</h1>
+            <h5><span>Using 👉 </span>HTML, CSS, Javascript, PHP & MySQL</h5>
+          </div>
+        </a>
+        <a href="#" target="_blank" id="project-link">
+          <div class="element">
+            <img
+              src="https://images.pexels.com/photos/5962560/pexels-photo-5962560.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt="vehicleimg"
+            />
+            <h1>Vehicle Parking Management</h1>
+            <h5><span>Using 👉 </span>C++</h5>
+          </div>
+        </a>
+        <a href="#" target="_blank" id="project-link">
+          <div class="element">
+            <video
+              src="Videos/Magma-site-clone.mp4"
+              autoplay
+              loop
+              muted
+            ></video>
+            <h1>Magma Clone</h1>
+            <h5><span>Using 👉 </span>HTML, CSS, JS & Canvas</h5>
+          </div>
+        </a>
+        <a href="#" target="_blank" id="project-link">
+          <div class="element">
+            <!-- <video
+              src=""
+              autoplay
+              loop
+              muted
+            ></video> -->
+            <h1>
+              Crime Management Analysis,Prediction & Face Ditection System
+            </h1>
+            <h5>
+              <span>Using 👉 </span>HTML, CSS, JS, Python, ML, OpenCV, NLP,
+              Pandas, Matplotlib & SQL Server
+            </h5>
+          </div>
+        </a>
+        <a
+          href="https://aaradhyasingh21.github.io/Animated-Front-Page/"
+          target="_blank"
+          id="project-link"
+        >
+          <div class="element lastelement">
+            <video
+              src="Videos/Animated front-page using Gsap.mp4"
+              autoplay
+              loop
+              muted
+            ></video>
+            <h1>Animated Front-Page</h1>
+            <h5><span>Using 👉 </span>HTML, CSS, JS & Gsap</h5>
+          </div>
+        </a>
+        <a
+          href="https://aaradhyasingh21.github.io/Animated-Front-Page/"
+          target="_blank"
+          id="project-link"
+        >
+          <div class="element lastelement">
+            <!-- <video
+              src="Videos/Animated front-page using Gsap.mp4"
+              autoplay
+              loop
+              muted
+            ></video> -->
+            <h1>E-Commerce Website</h1>
+            <h5><span>Using 👉 </span>ReactJs</h5>
+          </div>
+        </a>
+        <a
+          href="https://github.com/aaradhyasingh21?tab=repositories"
+          target="_blank"
+          ><button type="submit" class="btn btn2 btn3">See More</button>
+        </a>
+      </div>
+      <!--page3 closing div-->
+
+      <!-- Contact section -->
+      <div id="contact">
+        <div class="container">
+          <h1 class="sub-title">Contact Me</h1>
+          <div class="row">
+            <div class="contact-left">
+              <!-- <h1 class="sub-title">Contact Me</h1> -->
+              <p>
+                <i class="fa-solid fa-paper-plane"></i> aaradhyas438@gmail.com
+              </p>
+              <!-- <p><i class="fa-solid fa-phone"></i> 222</p> -->
+              <div class="social-icons">
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://github.com/aaradhyasingh21" target="_blank"
+                  ><i class="fa-brands fa-github"></i
+                ></a>
+                <a
+                  href="https://www.linkedin.com/in/theaaradhyasingh/"
+                  target="_blank"
+                  ><i class="fa-brands fa-linkedin"></i
+                ></a>
+              </div>
+            </div>
+            <div class="contact-right">
+              <form>
+                <input type="text" name="Name" placeholder="Name" required />
+                <input type="email" name="email" placeholder="email" required />
+                <textarea
+                  name="Messagees"
+                  id=""
+                  cols="30"
+                  rows="6"
+                  placeholder="Message for Me"
+                ></textarea>
+                <button type="submit" class="btn btn2">Send Message</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--main closing div-->
+
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+      integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+      integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
